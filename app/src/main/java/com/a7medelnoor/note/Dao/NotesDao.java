@@ -15,11 +15,11 @@ public interface NotesDao {
     LiveData<List<Notes>> getAllNotes();
 
     @Insert
-    void insertNotes(Notes... notes);
+    public void insertNotes(Notes... notes);
 
     @Query("DELETE FROM notes_database WHERE id=id")
-    void deleteNotes(int id);
+    public void deleteNotes(int id);
 
     @Update
-    void updateNotes(Notes... notes);
+    public void updateNotes(Notes... notes);
 }
