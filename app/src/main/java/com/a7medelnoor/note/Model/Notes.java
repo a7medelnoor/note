@@ -9,13 +9,13 @@ public class Notes {
     @PrimaryKey(autoGenerate = true)
     public int id;
     @ColumnInfo(name = "note_title")
-    String noteTitle;
+    public String noteTitle;
     @ColumnInfo(name = "note_subtitle")
-    String noteSubTitle;
+    public String noteSubTitle;
     @ColumnInfo(name = "note_date")
-    String noteDate;
+    public String noteDate;
     @ColumnInfo(name = "notes")
-    String notes;
+    public String notes;
     @ColumnInfo(name = "note_priority")
-    String notePriority;
+    public String notePriority;
 }
