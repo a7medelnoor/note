@@ -61,6 +61,7 @@
                 android:textColor="@color/black" />
 
             <ImageView
+                android:id="@+id/greenPriority"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_margin="10dp"
@@ -68,12 +69,14 @@
                 android:src="@drawable/ic_baseline_done_24" />
 
             <ImageView
+                android:id="@+id/yellowPriority"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/yellow_shape" />
 
             <ImageView
+                android:id="@+id/redPriority"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_margin="10dp"
@@ -101,9 +104,9 @@
         android:id="@+id/doneNoteBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
         android:layout_margin="26dp"
         android:src="@drawable/ic_baseline_done_24"
         app:backgroundTint="@color/red" />
