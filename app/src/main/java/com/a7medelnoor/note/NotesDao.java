@@ -7,7 +7,7 @@ import androidx.room.Update;
 import java.util.List;
 
 @androidx.room.Dao
-public interface Dao {
+public interface NotesDao {
     @Query("SELECT * FROM notes_database")
     List<Notes> getAllNotes();
 
