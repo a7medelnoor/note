@@ -1,10 +1,13 @@
-package com.a7medelnoor.note;
+package com.a7medelnoor.note.Database;
 
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import com.a7medelnoor.note.Model.Notes;
+import com.a7medelnoor.note.Dao.NotesDao;
 
 @Database(entities = {Notes.class}, version = 1)
 public abstract class NoteDatabase extends RoomDatabase {

@@ -1,4 +1,4 @@
-package com.a7medelnoor.note;
+package com.a7medelnoor.note.Model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

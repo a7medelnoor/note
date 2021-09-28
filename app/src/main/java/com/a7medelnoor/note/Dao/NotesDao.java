@@ -1,8 +1,10 @@
-package com.a7medelnoor.note;
+package com.a7medelnoor.note.Dao;
 
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.a7medelnoor.note.Model.Notes;
 
 import java.util.List;
 
