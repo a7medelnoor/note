@@ -20,13 +20,13 @@ public class NoteRepository {
         notesDao = database.notesDao();
         getAllNotes = notesDao.getAllNotes();
     }
-    void insertNote(Notes notes){
+    public void insertNote(Notes notes){
         notesDao.insertNotes(notes);
     }
-    void deleteNote(int id){
+    public void deleteNote(int id){
         notesDao.deleteNotes(id);
     }
-    void updateNotes(Notes notes){
+   public void updateNotes(Notes notes){
         notesDao.updateNotes(notes);
     }
 }
