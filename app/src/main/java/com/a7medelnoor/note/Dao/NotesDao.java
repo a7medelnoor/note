@@ -11,7 +11,7 @@ import java.util.List;
 
 @androidx.room.Dao
 public interface NotesDao {
-    @Query("SELECT * FROM notes_database")
+    @Query("SELECT * FROM Notes_Database")
     LiveData<List<Notes>> getAllNotes();
 
     @Insert
